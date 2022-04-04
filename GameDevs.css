@@ -804,20 +804,21 @@ footer {
         margin-top: 40px;
     }
     .imp1-hover {
-        width: 70%;
+        width: 100%;
         align-self: center;
         border-radius: 10px;
         margin: auto;
+
     }
     .imp2-hover {
-        width: 70%;
+        width: 100%;
         align-self: center;
         border-radius: 10px;
         margin: auto;
     }
     .imp1-hover img,
     .imp2-hover img {
-        width: 100%;
+        width: 120%;
         height: 200px;
         padding-top: 20px;
         padding-left: 30%;
@@ -841,4 +842,85 @@ footer {
     .h1-xbox {
         font-size: 15px;
     }
+
+    .img-playstation{
+        height: 80px;
+        width: 45%;
+        margin-left: 25% ;
+    }
+
+    .img-nintendo{
+        margin-bottom: 20px;
+        height: 30px;
+    }
+
+    .img-xbox{
+        height: 50px;
+        margin-bottom: 15px;
+        width: 40%;
+        margin-left: 28%;
+        margin-top: 50px;
+    }
+
+    .img-capcom{
+        height: 30px;
+        width: 75%;
+        margin-left: 13%;
+        margin-bottom:25px ;
+    }
+
+    .img-sega{
+        height: 40px;
+        width: 70%;
+        margin-left: 15%;
+        margin-top: 45px;
+        margin-bottom: 20px;
+    }
+
+    .img-indie{
+        height: 60px;
+        width: 50%;
+        margin-top: 45px;
+        margin-left: 23%;
+        margin-bottom: 2px;
+    }
+
+    #section2{
+        flex-direction: column;
+        
+    }
+
+    .Gran{
+        width: 100%;
+
+    }
+
+    .Chocobo{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .Ghostwire{
+        width: 100%;
+    }
+
+    #section3{
+        float: right;
+        width: 300px;
+    }
+
+    .div1, .div2, .div3{
+        margin-right: 45%;
+        width: 90%;
+    }
+
+    footer{
+        position: relative;
+        float: right;
+    }
+
+    .p2{
+        display: none;
+    }
+
 }
